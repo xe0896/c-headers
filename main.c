@@ -4,8 +4,8 @@
     wanted test_and_set.c to use stuff from peterson.c, then we would include within
     test_and_set.c to ensure modularity
 */
-#include "peterson.h"
-#include "test_and_set.h"
+#include "headers/peterson.h"
+#include "headers/test_and_set.h"
 #include <stdio.h>
 
 volatile int lock = 0; // Volatile to avoid compiler assumptions for optimisations
