@@ -1,5 +1,5 @@
 #include <stdio.h>
-#include "peterson.h"
+#include "headers/peterson.h"
 // #include <stdbool.h> would be used if we was using true, false but we are using 1, 0 respectively.
 
 /* 
